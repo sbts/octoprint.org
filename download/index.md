@@ -23,7 +23,13 @@ You can download the latest version via the following button:
 <div class="text-center">
     <a class="btn btn-large btn-block" href="https://octopi.octoprint.org/latest" data-event-category="download" data-event-action="latest"><i class="icon-download-alt icon-large"></i>&nbsp;&nbsp;Download&nbsp;OctoPi&nbsp;0.14</a>
     <small>MD5Sum of the .zip: <code>52c855c9bcc88fd3bf81bbe8e58a2e4c</code></small><br>
-    <small>Compatible with Raspberry Pi A, B, A+, B+, B2, <strong>3</strong><sup><a href="#footnote-1-text" class="footnote" id="footnote-1">1)</a></sup>, Zero and Zero W<sup><a href="#footnote-2-text" class="footnote" id="footnote-2">2)</a></sup></small>
+    <small>
+        <strong>Recommended Model Raspberry Pi 3</strong><br>
+        Compatible with Raspberry Pi A, B, A+, B+, B2<br>
+        <strong>Not Recommended Models Raspberry Zero and Zero W</strong><br>
+        * The Pi Zero and Zero W are Not recommended if you plan to use a webcam for a live view <br>
+        the wifi interface currently <a href="https://github.com/guysoft/OctoPi/issues/318#issuecomment-284762963" target="_blank">causes significant CPU load</a>
+         on bandwidth utilization, negatively affecting running print jobs.
 </div>
 
 or simply buy one of the available
@@ -86,11 +92,3 @@ For installing OctoPrint on a Mac, please take a look at [the setup instructions
 
 ----
 
-<div class="footnotes">
-    <div class="footnote-text">
-        <a href="#footnote-1" id="footnote-1-text">1)</a> Recommended model.
-    </div>
-    <div class="footnote-text">
-        <a href="#footnote-2" id="footnote-2-text">2)</a> Not recommended if you plan to use a webcam for a live view - the wifi interface currently <a href="https://github.com/guysoft/OctoPi/issues/318#issuecomment-284762963" target="_blank">causes significant CPU load</a> on bandwidth utilization, negatively affecting running print jobs.
-    </div>
-</div>
